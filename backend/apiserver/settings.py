@@ -78,6 +78,11 @@ CORS_ALLOWED_ORIGINS = [
     "https://growe.vercel.app"
 ]
 
+CORS_ALLOW_HEADERS = [
+    'content-type',
+    'authorization',
+]
+
 # CORS_ALLOW_ALL_ORIGINS = True
 
 WSGI_APPLICATION = 'apiserver.wsgi.application'
