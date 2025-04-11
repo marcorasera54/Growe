@@ -4,7 +4,7 @@ nixPkgs = ["python310", "python310Packages.pip", "postgresql"]
 [phases.install]
 cmds = [
   "python3.10 -m venv venv",
-  ". venv/bin/activate"
+  ". venv/bin/activate && pip install django --break-package-system"
 ]
 
 [start]
