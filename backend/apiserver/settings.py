@@ -89,14 +89,7 @@ DEFAULT_FROM_EMAIL = 'shadowsleuth569@gmail.com'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME', default='growe_db'),
-        'USER': config('DB_USER', default='postgres'),
-        'PASSWORD': config('DB_PASSWORD', default='postgres'),
-        'HOST': config('DB_HOST', default='localhost'),
-        'PORT': config('DB_PORT', default='5432'),
-    }
+    'default': dj_database_url.config(default='postgresql://postgres:DxbhKQBkKgtCBnvYwsRJwkGHrNSwzPRd@mainline.proxy.rlwy.net:35253/railway')
 }
 
 
