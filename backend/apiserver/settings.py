@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-9995_wmlm!q^n22s1%n(*ts5mhylvx4e1dozc544p4y14!3e(f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "192.168.137.213"]
+ALLOWED_HOSTS = ["localhost", "https://growe-production.up.railway.app",]
 
 # Application definition
 
@@ -76,6 +76,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://192.168.137.213:8000"
 ]
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 WSGI_APPLICATION = 'apiserver.wsgi.application'
 

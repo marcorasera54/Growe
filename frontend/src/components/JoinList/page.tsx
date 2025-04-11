@@ -31,7 +31,7 @@ export default function JoinList() {
     setMessage(null);
 
     try {
-      const response = await fetch("http://localhost:8000/api/join-list/", {
+      const response = await fetch("https://growe-production.up.railway.app/api/join-list/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

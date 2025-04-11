@@ -29,7 +29,7 @@ export default function ContactUs() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("http://192.168.137.213:8000/api/contact/", {
+      const response = await fetch("https://growe-production.up.railway.app/api/contact/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
