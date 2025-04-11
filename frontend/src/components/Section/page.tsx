@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const AgricultureSection = () => {
   return (
@@ -114,9 +115,11 @@ const AgricultureSection = () => {
         </ul>
 
         {/* CTA Butto. n */}
-        <button className="bg-green-600 hover:bg-green-700 cursor-pointer text-white py-3 px-6 rounded-md text-sm sm:text-base transition">
-          Scopri di più su Growe
-        </button>
+        <Link href="/services">
+          <button className="bg-green-600 hover:bg-green-700 cursor-pointer text-white py-3 px-6 rounded-md text-sm sm:text-base transition">
+            Scopri di più su Growe
+          </button>
+        </Link>
       </div>
     </section>
   );
