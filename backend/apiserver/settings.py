@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-9995_wmlm!q^n22s1%n(*ts5mhylvx4e1dozc544p4y14!3e(f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "https://growe-production.up.railway.app", "https://growe.vercel.app"]
+ALLOWED_HOSTS = ["localhost", "growe-production.up.railway.app", "growe.vercel.app"]
 
 # Application definition
 
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -52,7 +53,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'apiserver.urls'
