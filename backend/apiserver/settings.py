@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-9995_wmlm!q^n22s1%n(*ts5mhylvx4e1dozc544p4y14!3e(f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "https://growe-production.up.railway.app",]
+ALLOWED_HOSTS = ["localhost", "https://growe-production.up.railway.app", "https://growe.vercel.app"]
 
 # Application definition
 
