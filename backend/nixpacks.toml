@@ -1,8 +1,8 @@
 [phases.setup]
-nixPkgs = ["python310Packages.pip", "python310", "postgresql"]
+nixPkgs = ["python310", "python310Packages.pip", "postgresql"]
 
 [phases.install]
-cmds = ["pip install -r requirements.txt"]
+cmds = ["pip install --user -r requirements.txt"]
 
 [start]
-cmd = "python manage.py runserver 0.0.0.0:$PORT"
+cmd = "PYTHONPATH=$HOME/.local/lib/python3.10/site-packages python manage.py runserver 0.0.0.0:$PORT"
