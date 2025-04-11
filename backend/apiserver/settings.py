@@ -77,7 +77,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://192.168.137.213:8000"
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = False
 
 WSGI_APPLICATION = 'apiserver.wsgi.application'
 
