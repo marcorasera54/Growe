@@ -114,7 +114,7 @@ export default function Footer() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Contatti</h3>
               <ul className="space-y-2">
-                <li>(+39) 812 8218 0530</li>
+                <li>(+39) 388 6955 182</li>
                 <li>growesrl@gmail.com</li>
                 <li>04011 - Aprilia, Lazio</li>
               </ul>

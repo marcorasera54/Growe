@@ -183,7 +183,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <p className="font-medium">Phone:</p>
-                    <p className="text-sm sm:text-base">+39 1235 2355 98</p>
+                    <p className="text-sm sm:text-base">+39 3886 9551 82</p>
                   </div>
                 </div>
 

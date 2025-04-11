@@ -179,7 +179,7 @@ const CookiePolicy: React.FC = () => {
             <p>GROWE S.R.L.</p>
             <p>Via Carroceto snc, 04011 - Aprilia (LT)</p>
             <p>Email: growesrl@gmail.com</p>
-            <p>Tel: +39 1111111111</p>
+            <p>Tel: +39 3886955182</p>
           </address>
         </section>
 
