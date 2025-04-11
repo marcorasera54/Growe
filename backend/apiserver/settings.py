@@ -72,18 +72,13 @@ TEMPLATES = [
     },
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://growe-production.up.railway.app", 
-    "https://growe.vercel.app"
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_HEADERS = [
-    'content-type',
-    'authorization',
+    '*'
 ]
 
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 
 WSGI_APPLICATION = 'apiserver.wsgi.application'
 
