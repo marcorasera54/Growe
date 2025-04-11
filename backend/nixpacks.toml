@@ -4,7 +4,9 @@ nixPkgs = ["python310", "python310Packages.pip", "postgresql"]
 [phases.install]
 cmds = [
   "python3.10 -m venv venv",
-  ". venv/bin/activate && pip install -r requirements.txt"
+  ". venv/bin/activate && pip install -r requirements.txt",
+  ". venv/bin/activate && python manage.py showmigrations",
+  ". venv/bin/activate && python manage.py migrate",
 ]
 
 [start]
