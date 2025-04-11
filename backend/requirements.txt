@@ -1,11 +1,8 @@
-Django>=5.2,<6.0
-psycopg2-binary  # For PostgreSQL support
-python-decouple  # For config() in settings
-django-cors-headers  # For CORS middleware
-# Add these if needed:
-Pillow  # If you're handling image uploads
-djangorestframework  # If you're building an API
-gunicorn  # For production deployment
-whitenoise  # For static file serving in production
-# For email support (which appears to be configured in your settings)
-django-smtp-ssl
+asgiref==3.8.1
+Django==5.2
+django-cors-headers==4.7.0
+pip==23.2.1
+psycopg2-binary==2.9.10
+python-decouple==3.8
+sqlparse==0.5.3
+tzdata==2025.2
