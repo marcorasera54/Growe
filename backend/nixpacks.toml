@@ -2,7 +2,10 @@
 nixPkgs = ["python310", "python310Packages.pip", "postgresql"]
 
 [phases.install]
-cmds = ["pip install --user -r requirements.txt"]
+cmds = [
+  "python3.10 -m venv venv",
+  ". venv/bin/activate"
+]
 
 [start]
-cmd = "PYTHONPATH=$HOME/.local/lib/python3.10/site-packages python manage.py runserver 0.0.0.0:$PORT"
+cmd = ". venv/bin/activate && python manage.py runserver 0.0.0.0:$PORT"
