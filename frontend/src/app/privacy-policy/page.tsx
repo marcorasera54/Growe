@@ -15,12 +15,12 @@ const PrivacyPolicy: React.FC = () => {
           </h2>
           <p className="mb-4">
             GROWE S.R.L., con sede legale in Via Carroceto snc, 04011 - Aprilia
-            (LT), (di seguito "Growe", "noi" o "nostro"), è il titolare del
+            (LT), (di seguito &quot;Growe&quot;, &quot;noi&quot; o &quot;nostro&quot;), è il titolare del
             trattamento dei dati personali raccolti attraverso questo sito web e
             i nostri servizi.
           </p>
           <p>
-            Growe è una startup nata per dare un futuro migliore all'agricoltura
+            Growe è una startup nata per dare un futuro migliore all&apos;agricoltura
             grazie al suo robot Growe, che permette di coltivare, seminare e
             monitorare ogni tipologia di ortaggio e frutto.
           </p>
@@ -46,7 +46,7 @@ const PrivacyPolicy: React.FC = () => {
               internet
             </li>
             <li className="mb-2">
-              Dati analitici relativi all'interazione con i nostri servizi
+              Dati analitici relativi all&apos;interazione con i nostri servizi
             </li>
           </ul>
         </section>

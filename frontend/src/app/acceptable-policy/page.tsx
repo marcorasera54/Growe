@@ -11,9 +11,9 @@ const AcceptableUsePolicy: React.FC = () => {
 
         <section className="mb-8">
           <p className="italic mb-6">
-            Questa Acceptable Use Policy ("Policy") definisce i termini e le
-            condizioni per l'utilizzo dei prodotti e servizi forniti da Growe
-            S.R.L., una startup nata per dare un futuro migliore all'agricoltura
+            Questa Acceptable Use Policy (&quot;Policy&quot;) definisce i termini e le
+            condizioni per l&apos;utilizzo dei prodotti e servizi forniti da Growe
+            S.R.L., una startup nata per dare un futuro migliore all&apos;agricoltura
             grazie al suo robot Growe che permette di coltivare, seminare e
             monitorare ogni tipologia di ortaggio e frutto.
           </p>
@@ -25,7 +25,7 @@ const AcceptableUsePolicy: React.FC = () => {
           </h2>
           <p className="mb-4">
             Utilizzando i nostri prodotti, robot, servizi, sito web o
-            applicazioni ("Servizi"), accettate di rispettare questa Policy. Se
+            applicazioni (&quot;Servizi&quot;), accettate di rispettare questa Policy. Se
             non accettate questi termini, non dovete utilizzare i nostri
             Servizi.
           </p>
@@ -40,11 +40,11 @@ const AcceptableUsePolicy: React.FC = () => {
               dalle specifiche tecniche dei nostri robot
             </li>
             <li className="mb-2">
-              Utilizzare il software e l'hardware forniti secondo le istruzioni
+              Utilizzare il software e l&apos;hardware forniti secondo le istruzioni
               e la documentazione fornita
             </li>
             <li className="mb-2">
-              Raccogliere e analizzare i dati generati dall'utilizzo dei nostri
+              Raccogliere e analizzare i dati generati dall&apos;utilizzo dei nostri
               robot per migliorare le vostre pratiche agricole
             </li>
             <li className="mb-2">
@@ -72,7 +72,7 @@ const AcceptableUsePolicy: React.FC = () => {
             </li>
             <li className="mb-2">
               Rimuovere o alterare i marchi, i loghi o le informazioni sui
-              diritti d'autore presenti sui nostri prodotti
+              diritti d&apos;autore presenti sui nostri prodotti
             </li>
             <li className="mb-2">
               Utilizzare i nostri Servizi in modo da danneggiare, disabilitare,
@@ -113,7 +113,7 @@ const AcceptableUsePolicy: React.FC = () => {
             Il software fornito con i nostri robot è concesso in licenza, non
             venduto. La licenza concede il diritto di utilizzare il software
             esclusivamente in connessione con i nostri robot e servizi, secondo
-            i termini specificati nell'accordo di licenza.
+            i termini specificati nell&apos;accordo di licenza.
           </p>
         </section>
 
@@ -138,7 +138,7 @@ const AcceptableUsePolicy: React.FC = () => {
             7. Raccolta e utilizzo dei dati
           </h2>
           <p className="mb-4">
-            I nostri robot raccolgono dati sull'ambiente agricolo e sulle
+            I nostri robot raccolgono dati sull&apos;ambiente agricolo e sulle
             performance delle colture. Questi dati sono trattati in conformità
             con la nostra Privacy Policy. Gli utenti accettano che possiamo
             utilizzare dati anonimi e aggregati per migliorare i nostri servizi
@@ -154,7 +154,7 @@ const AcceptableUsePolicy: React.FC = () => {
             Tutti i diritti di proprietà intellettuale relativi ai nostri
             prodotti, servizi, software e contenuti sono di proprietà di Growe
             S.R.L. o dei suoi licenziatari. Nulla in questa Policy trasferisce
-            alcun diritto di proprietà intellettuale all'utente.
+            alcun diritto di proprietà intellettuale all&apos;utente.
           </p>
         </section>
 
@@ -168,10 +168,10 @@ const AcceptableUsePolicy: React.FC = () => {
           <ul className="list-disc pl-6 mb-4">
             <li className="mb-2">Emettere un avvertimento</li>
             <li className="mb-2">
-              Sospendere temporaneamente l'accesso ai nostri Servizi
+              Sospendere temporaneamente l&apos;accesso ai nostri Servizi
             </li>
             <li className="mb-2">
-              Terminare definitivamente l'accesso ai nostri Servizi
+              Terminare definitivamente l&apos;accesso ai nostri Servizi
             </li>
             <li className="mb-2">Intraprendere azioni legali se necessario</li>
           </ul>
@@ -183,8 +183,8 @@ const AcceptableUsePolicy: React.FC = () => {
           </h2>
           <p className="mb-4">
             Possiamo modificare questa Policy in qualsiasi momento pubblicando
-            la versione aggiornata sul nostro sito web. L'uso continuato dei
-            nostri Servizi dopo tali modifiche costituisce l'accettazione della
+            la versione aggiornata sul nostro sito web. L&apos;uso continuato dei
+            nostri Servizi dopo tali modifiche costituisce l&apos;accettazione della
             Policy aggiornata.
           </p>
         </section>

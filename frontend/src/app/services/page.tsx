@@ -38,7 +38,7 @@ export default function Products() {
                 Robot Growe
               </h2>
               <p className="text-gray-700 mb-6">
-                Grazie a Growe, l'agricoltura si evolve con soluzioni smart che
+                Grazie a Growe, l&apos;agricoltura si evolve con soluzioni smart che
                 rendono gli orti domestici più produttivi e sostenibili.
               </p>
               <button className="bg-green-600 hover:bg-green-700 text-white cursor-pointer py-3 px-8 rounded-md font-medium transition-colors">
@@ -128,7 +128,7 @@ export default function Products() {
                     Growe - Il Robot per la Crescita Intelligente delle Piante
                   </h3>
                   <p className="text-sm text-gray-500">
-                    Growe è il robot innovativo che trasforma l'agricoltura
+                    Growe è il robot innovativo che trasforma l&apos;agricoltura
                     domestica. Progettato per semplificare la cura delle piante.{" "}
                   </p>
                   <div className="flex justify-between items-center mt-2">
@@ -160,7 +160,7 @@ export default function Products() {
                 Con Growe, le tue piante raggiungono nuovi livelli di crescita
               </h2>
               <p className="text-gray-600 mb-6">
-                Le famiglie e i privati scelgono Growe per la sua facilità d'uso
+                Le famiglie e i privati scelgono Growe per la sua facilità d&apos;uso
                 e per la qualità che porta direttamente nelle loro case.
               </p>
               <button className="bg-green-600 hover:bg-green-700 text-white py-2 px-6 rounded-md font-medium transition-colors">

@@ -7,10 +7,10 @@ export default function JoinList() {
     name: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [message, setMessage] = useState(null);
-  const [error, setError] = useState(null);
+  const [message, setMessage] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleChange = (e: { target: { name: any; value: any } }) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -18,7 +18,7 @@ export default function JoinList() {
     }));
   };
 
-  const handleSubmit = async (e: { preventDefault: () => void }) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!formData.email) {
@@ -43,7 +43,7 @@ export default function JoinList() {
 
       if (response.ok) {
         setMessage(data.message);
-        setFormData({ email: "", name: "" }); // Clear the form
+        setFormData({ email: "", name: "" });
       } else {
         setError(data.error || "Si è verificato un errore. Riprova più tardi.");
       }
@@ -51,6 +51,7 @@ export default function JoinList() {
       setError(
         "Errore di connessione. Verifica la tua connessione internet e riprova."
       );
+      console.log(err);
     } finally {
       setIsSubmitting(false);
     }
@@ -66,7 +67,7 @@ export default function JoinList() {
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-800 mb-6 leading-tight">
-            Unisciti alla Lista d'Attesa per
+            Unisciti alla Lista d&apos;Attesa per
             <br className="hidden sm:block" />
             Growe Oggi!
           </h2>

@@ -1,4 +1,3 @@
-// src/app/page.tsx
 import Footer from "@/components/Footer/page";
 import JoinList from "@/components/JoinList/page";
 import Navbar from "@/components/Navbar/page";
@@ -38,7 +37,7 @@ export default function Home() {
             {/* Hero Content */}
             <div className="flex-grow max-w-3xl">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8">
-                Potenziare l'Agricoltura Sostenibile per un{" "}
+                Potenziare l&apos;Agricoltura Sostenibile per un{" "}
                 <span className="relative">
                   <span className="relative inline-block italic">
                     Futuro migliore.
@@ -46,7 +45,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-white text-base sm:text-lg md:text-xl">
-                Unisciti a noi per rivoluzionare l'agricoltura attraverso la
+                Unisciti a noi per rivoluzionare l&apos;agricoltura attraverso la
                 tecnologia
                 <br /> innovativa e pratiche sostenibili. Ci impegniamo a
                 migliorare
@@ -129,7 +128,7 @@ export default function Home() {
                 <p className="text-gray-600">
                   Growe combina agricoltura e tecnologia per rendere le
                   coltivazioni più intelligenti e sostenibili, migliorando la
-                  vita degli agricoltori e rispettando l'ambiente.
+                  vita degli agricoltori e rispettando l&apos;ambiente.
                 </p>
               </div>
             </div>
@@ -178,7 +177,7 @@ export default function Home() {
                 </h3>
                 <p className="text-gray-600">
                   Utilizziamo materiali eco-compatibili e soluzioni precise per
-                  ridurre l'uso di risorse, proteggendo l'ambiente e la
+                  ridurre l&apos;uso di risorse, proteggendo l&apos;ambiente e la
                   biodiversità.
                 </p>
               </div>

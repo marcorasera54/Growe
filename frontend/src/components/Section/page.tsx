@@ -50,7 +50,7 @@ const AgricultureSection = () => {
         </h2>
 
         <p className="text-green-600 font-medium mb-4">
-          Growe rivoluziona l'agricoltura con soluzioni smart per campi più
+          Growe rivoluziona l&apos;agricoltura con soluzioni smart per campi più
           produttivi e sostenibili.
         </p>
 

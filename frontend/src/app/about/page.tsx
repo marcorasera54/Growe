@@ -27,8 +27,8 @@ export default function About() {
                   CHI SIAMO
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-white">
-                  GROWE nasce da un'idea semplice ma ambiziosa: rendere
-                  l'agricoltura più intelligente, sostenibile e accessibile.
+                  GROWE nasce da un&apos;idea semplice ma ambiziosa: rendere
+                  l&apos;agricoltura più intelligente, sostenibile e accessibile.
                   Uniamo tecnologia avanzata e visione ecologica per offrire
                   soluzioni concrete a chi coltiva oggi, pensando al domani. Il
                   nostro viaggio è iniziato con passione e continua ogni giorno
@@ -58,8 +58,8 @@ export default function About() {
                 In GROWE, il nostro approccio va oltre la semplice automazione.
                 Combiniamo soluzioni tecnologiche avanzate con un forte impegno
                 per la sostenibilità, creando un ecosistema che permette alle
-                aziende di prosperare, riducendo al contempo l'impatto
-                ambientale. Siamo convinti che l'innovazione non possa
+                aziende di prosperare, riducendo al contempo l&apos;impatto
+                ambientale. Siamo convinti che l&apos;innovazione non possa
                 prescindere dal rispetto per il nostro pianeta.
               </p>
               <a
@@ -82,16 +82,16 @@ export default function About() {
                   SOSTENIBILITÀ
                 </h3>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-4 sm:mb-6">
-                  INNOVAZIONE NEL RISPETTO DELL'AMBIENTE
+                  INNOVAZIONE NEL RISPETTO DELL&apos;AMBIENTE
                 </h2>
                 <div className="space-y-4">
                   <p className="text-base sm:text-lg text-gray-700">
                     Nel nostro percorso verso un futuro più sostenibile, abbiamo
                     scelto di progettare e produrre il nostro robot agricolo con
-                    un'attenzione particolare all'ambiente. Ogni fase del
+                    un&apos;attenzione particolare all&apos;ambiente. Ogni fase del
                     processo di sviluppo, dalla scelta dei materiali alla
                     produzione, riflette il nostro impegno verso la riduzione
-                    dell'impatto ambientale.
+                    dell&apos;impatto ambientale.
                   </p>
                   <p className="text-base sm:text-lg text-gray-700">
                     <strong>
@@ -100,16 +100,16 @@ export default function About() {
                     utilizziamo materiali eco-compatibili e riciclabili, come
                     leghe leggere, plastiche biodegradabili e componenti
                     facilmente recuperabili. Ogni elemento è studiato per
-                    ridurre l'impronta ecologica senza compromettere efficienza
+                    ridurre l&apos;impronta ecologica senza compromettere efficienza
                     e prestazioni.
                   </p>
                   <p className="text-base sm:text-lg text-gray-700">
-                    <strong>Tecnologia che rispetta l'ambiente:</strong> il
-                    nostro robot è progettato per ottimizzare l'utilizzo delle
+                    <strong>Tecnologia che rispetta l&apos;ambiente:</strong> il
+                    nostro robot è progettato per ottimizzare l&apos;utilizzo delle
                     risorse naturali. Grazie alla precisione delle sue
-                    tecnologie, è possibile ridurre l'impiego di pesticidi,
+                    tecnologie, è possibile ridurre l&apos;impiego di pesticidi,
                     fertilizzanti e acqua, contribuendo alla salvaguardia
-                    dell'ecosistema e alla protezione della biodiversità.
+                    dell&apos;ecosistema e alla protezione della biodiversità.
                   </p>
                   <p className="text-base sm:text-lg text-gray-700">
                     <strong>Efficienza energetica:</strong> alimentato da fonti
@@ -118,9 +118,9 @@ export default function About() {
                     ottimizza i consumi energetici.
                   </p>
                   <p className="text-base sm:text-lg text-gray-700">
-                    <strong>Un futuro sostenibile per l'agricoltura:</strong>{" "}
+                    <strong>Un futuro sostenibile per l&apos;agricoltura:</strong>{" "}
                     non si tratta solo di automazione, ma di una vera e propria
-                    rivoluzione verde. L'innovazione deve sempre andare di pari
+                    rivoluzione verde. L&apos;innovazione deve sempre andare di pari
                     passo con il rispetto per il pianeta. Per questo, in ogni
                     nostra scelta, mettiamo la sostenibilità al centro della
                     nostra visione.

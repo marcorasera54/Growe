@@ -1,27 +1,12 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import {
-  FaCartShopping,
-  FaStar,
-  FaBolt,
-  FaXTwitter,
-  FaRegHeart,
-  FaClipboard,
-} from "react-icons/fa6";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaPinterest,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaCartShopping, FaStar, FaBolt, FaRegHeart } from "react-icons/fa6";
 import Footer from "@/components/Footer/page";
 import Navbar from "@/components/Navbar/page";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 import { TbMichelinStarGreen } from "react-icons/tb";
 import { IoMdTime } from "react-icons/io";
-import { toast } from "sonner";
 
 export default function ProductDetail() {
   const [quantity, setQuantity] = useState(1);
@@ -54,7 +39,7 @@ export default function ProductDetail() {
     brand: "Growe",
     status: "Sold Out",
     description:
-      "Grazie a Growe, avrai un'esperienza agricola senza precedenti. Il nostro robot agricolo è progettato per ottimizzare ogni aspetto della tua attività, aiutandoti a coltivare in modo più intelligente, sostenibile e produttivo. Con tecnologie avanzate, Growe ti permette di monitorare continuamente i tuoi campi, rilevare in tempo reale le necessità delle tue colture e prendere decisioni più rapide e informate.",
+      "Grazie a Growe, avrai un&apos;esperienza agricola senza precedenti. Il nostro robot agricolo è progettato per ottimizzare ogni aspetto della tua attività, aiutandoti a coltivare in modo più intelligente, sostenibile e produttivo. Con tecnologie avanzate, Growe ti permette di monitorare continuamente i tuoi campi, rilevare in tempo reale le necessità delle tue colture e prendere decisioni più rapide e informate.",
     mainImage: "/images/growe (2).png",
     thumbnails: [
       "/images/growe (2).png",
@@ -384,18 +369,18 @@ export default function ProductDetail() {
                     efficiente, risparmiando tempo e risorse. Il robot agricolo
                     si adatta alle necessità specifiche del tuo terreno,
                     migliorando la resa delle tue piantagioni e riducendo
-                    l'impatto ambientale. Con un sistema di monitoraggio
+                    l&apos;impatto ambientale. Con un sistema di monitoraggio
                     costante delle colture, <b>Growe</b> ti aiuta a raggiungere
                     risultati ottimali con il minimo sforzo.
                   </p>
 
                   <p className="mt-4 text-sm sm:text-base">
                     Non solo aumenti la produttività, ma puoi anche fare la
-                    differenza per l'ambiente. <b>Growe</b> offre soluzioni
+                    differenza per l&apos;ambiente. <b>Growe</b> offre soluzioni
                     accessibili a chiunque ne abbia la necessità, garantendo che
                     ogni individuo, indipendentemente dalle dimensioni della sua
                     orticoltura, possa beneficiare delle tecnologie più
-                    innovative per l'agricoltura sostenibile.
+                    innovative per l&apos;agricoltura sostenibile.
                   </p>
 
                   <ul className="mt-4 sm:mt-6 space-y-2">
@@ -417,7 +402,7 @@ export default function ProductDetail() {
                     ti offre un vantaggio significativo, riducendo i costi
                     operativi, aumentando la qualità dei raccolti e contribuendo
                     a una produzione più sostenibile. Con la nostra tecnologia,
-                    il futuro dell'agricoltura è nelle tue mani.
+                    il futuro dell&apos;agricoltura è nelle tue mani.
                   </p>
                 </div>
 
@@ -484,10 +469,11 @@ export default function ProductDetail() {
                 </ul>
 
                 <p className="mt-6 text-sm sm:text-base text-gray-600">
-                  <b>Growe</b> rappresenta una base perfetta per l'automazione
-                  agricola, permettendo di sviluppare un monitoraggio
-                  ambientale, una raccolta intelligente e un'interazione con
-                  colture attraverso visione artificiale.
+                  <b>Growe</b> rappresenta una base perfetta per
+                  l&apos;automazione agricola, permettendo di sviluppare un
+                  monitoraggio ambientale, una raccolta intelligente e
+                  un&apos;interazione con colture attraverso visione
+                  artificiale.
                 </p>
               </div>
             )}
@@ -617,7 +603,7 @@ function ReviewCard({
       <div className="flex justify-between items-start mb-3">
         <div className="flex items-center">
           <div className="w-10 h-10 rounded-full bg-gray-200 mr-3 overflow-hidden">
-            <img
+            <Image
               src={
                 "https://th.bing.com/th/id/OIP.OYbzbbyzogwtriubL2pP0AHaHa?rs=1&pid=ImgDetMain"
               }

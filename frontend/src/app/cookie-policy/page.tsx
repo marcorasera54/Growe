@@ -29,7 +29,7 @@ const CookiePolicy: React.FC = () => {
           <ul className="list-disc pl-6 mb-4">
             <li className="mb-2">
               <strong>Cookie necessari:</strong> essenziali per il funzionamento
-              del sito web e l'utilizzo delle sue funzionalità
+              del sito web e l&apos;utilizzo delle sue funzionalità
             </li>
             <li className="mb-2">
               <strong>Cookie di preferenza:</strong> ci permettono di ricordare
@@ -41,7 +41,7 @@ const CookiePolicy: React.FC = () => {
             </li>
             <li className="mb-2">
               <strong>Cookie di marketing:</strong> utilizzati per mostrare
-              pubblicità pertinenti e misurare l'efficacia delle campagne
+              pubblicità pertinenti e misurare l&apos;efficacia delle campagne
             </li>
           </ul>
         </section>

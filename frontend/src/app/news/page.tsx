@@ -1,12 +1,9 @@
-// src/components/BlogGrid/page.tsx
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import Footer from "@/components/Footer/page";
 import Navbar from "@/components/Navbar/page";
 
 export default function BlogGrid() {
-  // Blog post data structure
   const blogPosts = [
     {
       id: 1,

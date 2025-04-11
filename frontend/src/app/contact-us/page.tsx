@@ -50,6 +50,7 @@ export default function ContactUs() {
       }
     } catch (error) {
       toast.error("Errore nell'invio del ticket. Per favore, riprova!");
+      console.log(error);
     } finally {
       setIsSubmitting(false);
     }

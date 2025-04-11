@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
-import { AiFillTikTok } from "react-icons/ai";
 
 export default function Footer() {
   return (
@@ -20,7 +19,7 @@ export default function Footer() {
         {/* Overlay with gradient */}
         <div className="absolute inset-0 bg-gradient-to-r from-green-800/70 to-green-800/70">
           <h2 className="text-white text-3xl font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-            "Coltivare con Intelligenza, Raccogliere con Successo"
+            &quot;Coltivare con Intelligenza, Raccogliere con Successo&quot;
           </h2>
         </div>
       </div>
