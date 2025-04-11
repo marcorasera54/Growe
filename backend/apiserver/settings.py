@@ -78,6 +78,15 @@ CORS_ALLOW_HEADERS = [
     '*'
 ]
 
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'PUT',
+    'DELETE',
+    'OPTIONS',
+    'PATCH',
+]
+
 CORS_ALLOW_CREDENTIALS = True
 
 WSGI_APPLICATION = 'apiserver.wsgi.application'
