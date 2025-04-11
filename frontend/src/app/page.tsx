@@ -26,13 +26,10 @@ export default function Home() {
           />
         </div>
 
-        {/* Navbar */}
         <Navbar />
 
         {/* Content Overlay */}
         <div className="relative z-10">
-          {/* Hero Section */}
-          {/* Hero Section with Tags at Bottom */}
           <section className="container mx-auto px-6 sm:px-8 pt-24 pb-4 flex flex-col h-[80vh]">
             {/* Hero Content */}
             <div className="flex-grow max-w-3xl">
@@ -78,7 +75,7 @@ export default function Home() {
 
             {/* Tags Section at Bottom */}
             <div className="mt-auto">
-              <div className="flex flex-wrap justify-end gap-2 sm:gap-3 md:gap-4 max-w-lg ml-auto">
+              <div className="flex flex-wrap justify-end gap-2 sm:gap-3 md:gap-4 max-w-lg ml-auto mt-10 sm:mt-0">
                 {[
                   "AgriTech",
                   "Coltivazione di precisione",
